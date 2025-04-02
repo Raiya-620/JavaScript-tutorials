@@ -113,7 +113,7 @@ const favFruit = "Grapes";
 // nameConfirm ? document.write("Welcome to the club") :  document.write("Goodbye");
 
 
-const fruits = ["apples", "bananas", "grapes"];
+// const fruits = ["apples", "bananas", "grapes"];
 
 // fruits[1] = "mongo";
 // fruits.push("watermelon", "dates") // to add items to an array
@@ -133,8 +133,26 @@ const fruits = ["apples", "bananas", "grapes"];
 // fruits.splice(start, 0index, itemsToAdd)
 
 // replace bananas with oranges and blackberry
-fruits.splice(1,1, "oranges", "blackberry");
+// fruits.splice(1,1, "oranges", "blackberry");
 
 // fruits.splice(1,2);
-console.log(fruits);
+// console.log(fruits);
 // console.log(fruits.length);
+
+
+//maps
+// fruits = ["apple", "guava", "bananas"];
+
+// Array.map(function(currentValue, index(optional)Array(optional)), thisValue)
+
+// const loveFruit = fruits.map(function(fruit, index){
+//     return `I love ${fruit} ${index}`;
+// });
+
+// console.log(loveFruit);
+
+const numbers = [1,2,3,4];
+
+const multiplyByTwo = numbers.map(number => number * 2);
+
+console.log(multiplyByTwo);
