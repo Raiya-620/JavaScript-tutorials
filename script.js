@@ -151,8 +151,10 @@ const favFruit = "Grapes";
 
 // console.log(loveFruit);
 
-const numbers = [1,2,3,4];
+// const numbers = [1,2,3,4];
 
-const multiplyByTwo = numbers.map(number => number * 2);
+// const multiplyByTwo = numbers.map(number => number * 2);
 
-console.log(multiplyByTwo);
+// console.log(multiplyByTwo);
+
+
