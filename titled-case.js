@@ -1,11 +1,14 @@
-const capitalize = (sentence) => {
+const capitalized = (sentence) => {
 const makeArray = sentence.split(" ");
-capitals = [];
+const capitals = [];
 
-for(let i = 0; makeArray.length; i++){
-    capitals.push(makeArray[i].UpperCase())
+for(let i = 0; i < makeArray.length; i++){
+    capitals.push(makeArray[i].charAt(0).toUpperCase() + makeArray[i].slice(1));
 }
+let titledCase = capitals.join(" ")
+document.writeln(titledCase);
+
 console.log(makeArray);
 }
 
-capitalize("jack of all trades, master of none");
+capitalized('jack of all trades, master of none');
