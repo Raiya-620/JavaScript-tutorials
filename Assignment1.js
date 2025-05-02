@@ -33,3 +33,12 @@ function kobby(username, password, email){
 
 
 kobby("suraiy", "ght345323","suraiyagmal@gmail.com");
+
+function name(firstName, lastName, ){
+    return {
+        firstName : firstName,
+        lastName : lastName,
+        fullName : firstName + " " + lastName
+    }
+}
+console.log(name("kobby", "assan"));
